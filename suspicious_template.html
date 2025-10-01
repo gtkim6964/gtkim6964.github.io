@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Trellix EX Advanced URL Defense Engine</title>
+
+		<link type="text/css" rel="stylesheet" href="static/css/trellix.css" />
+	</head>
+	<body>
+		<div class="header">
+			<div class="header-bd">
+				<div class="ph"><br></div>
+				<img class="logo" src="static/img/Ncurity_main_LOGO_KO_width.png" alt="Trellix">
+			</div>
+		</div>
+		<div class="nav">
+		</div>
+		<div class="container">
+			<div class="banner suspicious">
+				경고! 이 사이트에서는 악성 콘텐츠가 포함될 수 있습니다. 주의하여 진행하십시오.
+			</div>
+			<div class="content">
+				<div class="content-bd">
+					<p>
+						귀하의 조직이 표적형 피싱 공격으로부터 귀하를 보호하기 위해 Trellix Advanced Targeted Protection 을 배포했기 때문에 이 페이지로 리디렉션되었습니다.
+					</p>
+					<p class="url-text url-text-sus">
+						<a id="outlink" href="https://tr.ee/2wtJuR">https://tr.ee/2wtJuR</a>
+					</p>
+					<p>
+						보안 관행에 대한 자세한 정보가 필요하거나, 정상적인 사이트가 잘못 차단된 경우 엔큐리티로 문의하십시오.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="footer-bd">
+				Copyright &copy; 2025 엔큐리티. All rights reserved.
+			</div>
+		</div>
+		<script>
+			try {
+				if (window.location.hash) {
+					var link = document.getElementById("outlink");
+					link.textContent += window.location.hash;
+					var new_link = link.getAttribute("href") + window.location.hash;
+					link.setAttribute("href", new_link);
+				}
+			}
+			catch (e) {}
+		</script>
+	</body>
+</html>
